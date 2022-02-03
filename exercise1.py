@@ -93,3 +93,49 @@ print float2
 float4 = 1.5e2 
 
 print float4
+
+#--------------------------------
+
+cucumbers = 4
+price_per_cucumber = 3.25
+total_cost = price_per_cucumber * cucumbers 
+print total_cost
+
+#--------------------------------
+
+#if the numbers do not divide evenly, the result of the division is truncated into an integer. In other words, the quotient is rounded down to a whole number
+
+quotient1 = 6/2 #Answer = 3
+print quotient1
+
+quotient2 = 7/2 #Answer = 3
+print quotient2
+
+#To yield a float as the result instead, programmers often change either the numerator or the denominator (or both) to be a float
+
+quotient3 = 7./2
+print quotient3
+# the value of quotient1 is 3.5
+quotient4 = 7/2.
+print quotient4
+# the value of quotient2 is 3.5
+quotient5 = 7./2.
+print quotient5
+# the value of quotient3 is 3.5
+
+#Or float() method
+quotient6 = float(7)/2
+print quotient6
+
+#--------------------------------
+
+cucumbers = 100
+num_people = 6
+
+whole_cucumbers_per_person = cucumbers/num_people
+
+print whole_cucumbers_per_person
+
+float_cucumbers_per_person = float(cucumbers)/num_people
+
+print float_cucumbers_per_person
