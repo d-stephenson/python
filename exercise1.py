@@ -22,4 +22,8 @@ is_this_number_divisible_by_seven = 133 % 7
 
 #In the above code block, we use the modulo operator to find the remainder of 15 divided by 2. Since 15 is an odd number the remainder is 1
 
+product = 28 * 145
+remainder = 1398 % 11
 
+print product
+print remainder
