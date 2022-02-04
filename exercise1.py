@@ -212,3 +212,23 @@ print 'There\'s a snake in my boot!'
 
 fifth_letter = "MONTY"[4]
 print fifth_letter
+
+#--------------------------------
+
+#String methods
+
+parrot = "Norwegian Blue"
+print len(parrot)
+
+parrot1 = "Norwegian Blue".lower()
+print parrot1
+
+parrot2 = "Norwegian Blue"
+print parrot1.upper()
+
+pi = 3.14
+print str(pi)
+
+#--------------------------------
+
+#Dot Notation
