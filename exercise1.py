@@ -201,3 +201,14 @@ point_total = 100 + (exercises_completed * points_per_exercise)
 
 print "I got " + str(point_total) + " points!"
 
+#--------------------------------
+
+#Escaping characters \
+
+# print 'There's a snake in my boot!'
+print 'There\'s a snake in my boot!'
+
+#Access by Index
+
+fifth_letter = "MONTY"[4]
+print fifth_letter
