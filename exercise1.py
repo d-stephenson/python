@@ -238,3 +238,21 @@ print str(pi)
 ministry = "The Ministry of Silly Walks"
 print len(ministry)
 print ministry.upper()
+
+#--------------------------------
+
+#String Concatenation
+
+# The % operator after the string is used to combine a string with variables
+# The % operator will replace the %s in the string with the string variable that comes after it
+
+string_1 = "Camelot"
+string_2 = "place"
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+day = 6
+print "03 - %s - 2019" %  (day)
+# 03 - 6 - 2019
+print "03 - %02d - 2019" % (day)
+# 03 - 06 - 2019
+
