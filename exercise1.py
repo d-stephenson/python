@@ -139,3 +139,31 @@ print whole_cucumbers_per_person
 float_cucumbers_per_person = float(cucumbers)/num_people
 
 print float_cucumbers_per_person
+
+#--------------------------------
+
+#Multi-line Strings
+
+haiku = """The old pond,
+A frog jumps in:
+Plop!"""
+
+print haiku
+
+#--------------------------------
+
+#Booleans
+
+a = True
+b = False
+
+#--------------------------------
+
+# Value Error
+
+# A variable with the value 
+
+# 7 is an integer
+# 7. is a float
+# "7" is a string
+
