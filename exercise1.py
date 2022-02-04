@@ -167,3 +167,27 @@ b = False
 # 7. is a float
 # "7" is a string
 
+float_1 = 0.25
+float_2 = 40.0
+
+product = float_1 * float_2
+big_string = "The product was " + str(product)
+
+print product
+print big_string
+
+number1 = "100"
+number2 = "10"
+
+print int(number1)
+print float(number1)
+ 
+string_addition = number1 + number2 
+#string_addition now has a value of "10010"
+ 
+int_addition = int(number1) + int(number2)
+#int_addition has a value of 110
+
+print string_addition
+print int_addition 
+
