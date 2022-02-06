@@ -251,8 +251,18 @@ string_2 = "place"
 print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 
 day = 6
-print "03 - %s - 2019" %  (day)
+print "03 - %s - 2019" % (day)
 # 03 - 6 - 2019
 print "03 - %02d - 2019" % (day)
 # 03 - 06 - 2019
+
+# String Formatting with %
+# You need the same number of %s terms in a string as the number of variables in parentheses
+
+name = "Alex"
+quest = "Teaching Python"
+color = "Blue"
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
 
