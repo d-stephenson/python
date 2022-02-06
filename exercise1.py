@@ -274,6 +274,8 @@ my_string = "Sunshine"
 print len(my_string)
 print my_string.upper()
 
+#--------------------------------
+
 # The datetime Library
 # A lot of times you want to keep track of when something happened. We can do so in Python using datetime.
 
@@ -293,3 +295,10 @@ current_day = now.day
 print current_year 
 print current_month 
 print current_day 
+
+from datetime import datetime
+print datetime.now()
+now = datetime.now()
+print now.year
+print now.month
+print now.day
