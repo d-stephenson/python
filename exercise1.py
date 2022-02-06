@@ -313,4 +313,69 @@ now = datetime.now()
 print '%02d/%02d/%04d' % (now.month, now.day, now.year)
 print '%02d-%02d-%04d' % (now.month, now.day, now.year)
 
+print now.hour
+print now.minute
+print now.second
 
+print '%02d:%02d:%02d' % (now.hour, now.minute, now.second)
+
+print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
+
+# Control flow gives us this ability to choose among outcomes based on what else is happening in the program.
+
+def clinic():
+    print "You've just entered the clinic!"
+    print "Do you take the door on the left or the right?"
+    answer = raw_input("Type left or right and hit 'Enter'.").lower()
+    if answer == "left" or answer == "l":
+        print "This is the Verbal Abuse Room, you heap of parrot droppings!"
+    elif answer == "right" or answer == "r":
+        print "Of course this is the Argument Room, I've told you that already!"
+    else:
+        print "You didn't pick left or right! Try again."
+        clinic()
+
+clinic()
+
+# Comparators
+# There are six:
+
+# Equal to (==)
+
+# >>> 2 == 2
+# True
+# >>> 2 == 5
+# False
+# Not equal to (!=)
+
+# >>> 2 != 5
+# True
+# >>> 2 != 2
+# False
+# Less than (<)
+
+# >>> 2 < 5
+# True
+# >>> 5 < 2
+# False
+# Less than or equal to (<=)
+
+# >>> 2 <= 2
+# True
+# >>> 5 <= 2
+# False 
+# Greater than (>)
+
+# >>> 5 > 2
+# True
+# >>> 2 > 5
+# False
+# Greater than or equal to (>=)
+
+# >>> 5 >= 5
+# True
+# >>> 2 >= 5
+# False
+# Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value.
+
+# Note that == compares whether two things are equal, and = assigns a value to a variable.
