@@ -302,3 +302,15 @@ now = datetime.now()
 print now.year
 print now.month
 print now.day
+
+# What if we want to print today’s date in the following format? mm/dd/yyyy. Let’s use string substitution again!
+# Remember that the standalone % operator after the string will fill the %02d and %04d placeholders in the string on the left with the numbers 
+# and strings in the parentheses on the right.
+# %02d pads the month and day numbers with zeros to two places, and %04d pads the year to four places. 
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d' % (now.month, now.day, now.year)
+
+
