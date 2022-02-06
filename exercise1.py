@@ -266,3 +266,30 @@ color = "Blue"
 print "Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color)
 
+g = "Golf"
+h = "Hotel"
+print "%s, %s" % (g, h)
+
+my_string = "Sunshine"
+print len(my_string)
+print my_string.upper()
+
+# The datetime Library
+# A lot of times you want to keep track of when something happened. We can do so in Python using datetime.
+
+# Getting the Current Date and Time
+# We can use a function called datetime.now() to retrieve the current date and time.
+
+from datetime import datetime
+print datetime.now()
+
+from datetime import datetime
+now = datetime.now()
+
+current_year = now.year
+current_month = now.month
+current_day = now.day
+
+print current_year 
+print current_month 
+print current_day 
