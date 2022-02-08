@@ -379,3 +379,20 @@ clinic()
 # Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value.
 
 # Note that == compares whether two things are equal, and = assigns a value to a variable.
+
+# Boolean
+
+# Make me true!
+bool_one = 3 < 5  # We already did this one for you!
+
+# Make me false!
+bool_two = 7 == 1290
+
+# Make me true!
+bool_three = 12.9995 != 13
+
+# Make me false!
+bool_four = 27 < 1.987
+
+# Make me true!
+bool_five = 34 >= 33.2
