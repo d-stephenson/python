@@ -402,7 +402,7 @@ print bool_four
 bool_five = 34 >= 33.2
 print bool_five
 
-# True or not False and False. not gets evaluated first, so we have True or True and False. and goes next, so we get True or False. As we’ve seen, True or False is True, so the value finally returned is True
+#True or not False and False. not gets evaluated first, so we have True or True and False. and goes next, so we get True or False. As we’ve seen, True or False is True, so the value finally returned is True
 
 answer1 = "Left"
 if answer1 == "Left":
@@ -435,3 +435,44 @@ def french_soldier():
 
 print black_knight()
 print french_soldier()
+
+if 8 > 9:
+    print "I don't get printed!"
+elif 8 < 9:
+  print "I get printed!"
+else:
+  print "I also don't get printed!"
+  
+def greater_less_equal_5(answer):
+    if answer > 5:
+        return 1
+    elif answer < 5:          
+        return -1
+    else:
+        return 0
+        
+print greater_less_equal_5(4)
+print greater_less_equal_5(5)
+print greater_less_equal_5(6)
+
+# Complete the if and elif statements!
+def grade_converter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80 and grade < 90:
+        return "B"
+    elif grade > 69 and grade < 80:
+        return "C"
+    elif grade >= 65 and grade <= 69:
+        return "D"
+    else:
+        return "F"
+      
+# This should print an "A"      
+print grade_converter(92)
+
+# This should print a "C"
+print grade_converter(70)
+
+# This should print an "F"
+print grade_converter(61)
