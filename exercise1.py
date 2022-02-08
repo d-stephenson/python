@@ -402,10 +402,36 @@ print bool_four
 bool_five = 34 >= 33.2
 print bool_five
 
-# True or not False and False. not gets evaluated first, so we have True or True and False. and goes next, so we get True or False. As we’ve seen, True or False is True, so the value finally returned is True!
+# True or not False and False. not gets evaluated first, so we have True or True and False. and goes next, so we get True or False. As we’ve seen, True or False is True, so the value finally returned is True
 
-response = 'Y'
-
-answer = "Left"
-if answer == "Left":
+answer1 = "Left"
+if answer1 == "Left":
     print "This is the Verbal Abuse Room, you heap of parrot droppings!"
+
+def using_control_once():
+    if 1 == 1:
+        return "Success #1"
+
+def using_control_again():
+    if "A" == "A":
+        return "Success #2"
+
+print using_control_once()
+print using_control_again()
+
+answer2 = "'Tis but a scratch!"
+
+def black_knight():
+    if answer2 == "'Tis but a scratch!":
+        return True
+    else:             
+        return False       # Make sure this returns False
+
+def french_soldier():
+    if answer2 == "Go away, or I shall taunt you a second time!":
+        return True
+    else:             
+        return False       # Make sure this returns False
+
+print black_knight()
+print french_soldier()
