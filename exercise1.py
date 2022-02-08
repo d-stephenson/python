@@ -323,19 +323,19 @@ print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour,
 
 # Control flow gives us this ability to choose among outcomes based on what else is happening in the program.
 
-def clinic():
-    print "You've just entered the clinic!"
-    print "Do you take the door on the left or the right?"
-    answer = raw_input("Type left or right and hit 'Enter'.").lower()
-    if answer == "left" or answer == "l":
-        print "This is the Verbal Abuse Room, you heap of parrot droppings!"
-    elif answer == "right" or answer == "r":
-        print "Of course this is the Argument Room, I've told you that already!"
-    else:
-        print "You didn't pick left or right! Try again."
-        clinic()
+# def clinic():
+#     print "You've just entered the clinic!"
+#     print "Do you take the door on the left or the right?"
+#     answer = raw_input("Type left or right and hit 'Enter'.").lower()
+#     if answer == "left" or answer == "l":
+#         print "This is the Verbal Abuse Room, you heap of parrot droppings!"
+#     elif answer == "right" or answer == "r":
+#         print "Of course this is the Argument Room, I've told you that already!"
+#     else:
+#         print "You didn't pick left or right! Try again."
+#         clinic()
 
-clinic()
+# clinic()
 
 # Comparators
 # There are six:
@@ -384,15 +384,28 @@ clinic()
 
 # Make me true!
 bool_one = 3 < 5  # We already did this one for you!
+print bool_one
 
 # Make me false!
 bool_two = 7 == 1290
+print bool_two
 
 # Make me true!
 bool_three = 12.9995 != 13
+print bool_three
 
 # Make me false!
 bool_four = 27 < 1.987
+print bool_four
 
 # Make me true!
 bool_five = 34 >= 33.2
+print bool_five
+
+# True or not False and False. not gets evaluated first, so we have True or True and False. and goes next, so we get True or False. As we’ve seen, True or False is True, so the value finally returned is True!
+
+response = 'Y'
+
+answer = "Left"
+if answer == "Left":
+    print "This is the Verbal Abuse Room, you heap of parrot droppings!"
