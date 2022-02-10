@@ -476,3 +476,10 @@ print grade_converter(70)
 
 # This should print an "F"
 print grade_converter(61)
+
+# PigLatin
+
+print 'Welcome to the Pig Latin Translator!'
+
+# Start coding here!
+original = raw_input("Enter a word: ")
