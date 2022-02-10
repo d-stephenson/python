@@ -39,8 +39,26 @@ def square(n):
 
 square(10)
 
+#--------------------------------
 
+def power(base, exponent):  # Add your parameters here!
+  result = base ** exponent
+  print "%d to the power of %d is %d." % (base, exponent, result)
 
+power(37, 4)  # Add your arguments here!
+
+#--------------------------------
+
+# Functions calling functions
+
+def one_good_turn(n):
+      return n + 1
+    
+def deserves_another(m):
+  return one_good_turn(m) + 2
+
+one_good_turn(1)
+print deserves_another(2)
 
 
 
