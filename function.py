@@ -60,6 +60,17 @@ def deserves_another(m):
 one_good_turn(1)
 print deserves_another(2)
 
+#--------------------------------
+
+def cube(number):
+      return (number * number) * number
+
+def by_three(number):
+  if number % 3 == 0:
+    return cube(number)
+  else:
+    return False
+
 
 
 
