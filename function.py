@@ -78,16 +78,49 @@ print by_three(23)
 
 #Function Imports
 
-import math 
-print math.sqrt(25)
+# import math 
+# print math.sqrt(25)
 
-# Import *just* the sqrt function from math on line 3!
+    # # Import *just* the sqrt function from math on line 3!
 
-from math import sqrt
+# from math import sqrt
 
-# Universal import can handle this for you. The syntax for this is:
+    # # Universal import can handle this for you. The syntax for this is:
 
-from math import *
+# from math import *
+
+# import math # Imports the math module
+# everything = dir(math) # Sets everything to a list of things from math
+# print everything # Prints 'em all!
+
+# Built-in Function
+
+def biggest_number(*args):
+  print max(args)
+  return max(args)
+    
+def smallest_number(*args):
+  print min(args)
+  return min(args)
+
+def distance_from_zero(arg):
+  print abs(arg)
+  return abs(arg)
+
+biggest_number(-10, -5, 5, 10)
+smallest_number(-10, -5, 5, 10)
+distance_from_zero(-10)
+
+#--------------------------------
+
+maximum = max(1.2, 5, 8.9, 7, 458.1)
+print maximum
+
+minimum = min(-25.1, 34, 100, -2.1)
+print minimum
+
+absolute = abs(-42)
+print absolute
 
 #--------------------------------
     # Functions are defined with three components:
@@ -130,4 +163,8 @@ from math import *
     # Even if your own definitions don’t directly conflict with names from imported modules, if you import * from several modules at once, you won’t be able to figure out which variable or function came from where.
 
     # For these reasons, it’s best to stick with either import module and type module.name or just import specific variables and functions from various modules as needed.
+#--------------------------------
+
+#--------------------------------
+    # The abs() function returns the absolute value of the number it takes as an argument—that is, that number’s distance from 0 on an imagined number line. For instance, 3 and -3 both have the same absolute value: 3. The abs() function always returns a positive value, and unlike max() and min(), it only takes a single number.
 #--------------------------------
