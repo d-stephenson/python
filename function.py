@@ -76,7 +76,7 @@ print by_three(23)
 
 #--------------------------------
 
-#Function Imports
+# Function Imports
 
 # import math 
 # print math.sqrt(25)
@@ -121,6 +121,14 @@ print minimum
 
 absolute = abs(-42)
 print absolute
+
+#--------------------------------
+
+# Type function
+
+print type(42)
+print type(4.2)
+print type('spam')
 
 #--------------------------------
     # Functions are defined with three components:
