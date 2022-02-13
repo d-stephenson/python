@@ -197,10 +197,20 @@ def rental_car_cost(days):
 
 print rental_car_cost(5)
 
-def trip_cost(city, days):
-      return plane_ride_cost(city) + (rental_car_cost(days) + hotel_cost(days - 1))
+def trip_cost(city, days, spending_money):
+      return plane_ride_cost(city) + (rental_car_cost(days) + hotel_cost(days - 1)) + spending_money 
+    
+print trip_cost("Los Angeles", 5, 250)
 
-print trip_cost("Los Angeles", 5)
+
+
+
+
+
+
+
+
+
 
 #--------------------------------
     # Functions are defined with three components:
