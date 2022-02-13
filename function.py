@@ -131,6 +131,18 @@ print type(4.2)
 print type('spam')
 
 #--------------------------------
+
+def shut_down(s):
+  if s == "yes":
+    return "Shutting down"
+  elif s == "no":
+    return "Shutdown aborted"
+  else:
+    return "Sorry" 
+
+print shut_down("no")
+
+#--------------------------------
     # Functions are defined with three components:
 
     # The header, which includes the def keyword, the name of the function, and any parameters the function requires. Here’s an example:

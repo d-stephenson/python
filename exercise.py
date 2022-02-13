@@ -437,7 +437,7 @@ print black_knight()
 print french_soldier()
 
 if 8 > 9:
-    print "I don't get printed!"
+  print "I don't get printed!"
 elif 8 < 9:
   print "I get printed!"
 else:
