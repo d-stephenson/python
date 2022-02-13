@@ -30,6 +30,8 @@ print square_list
 
 #--------------------------------
 
+# Dictionary
+
 # A dictionary is similar to a list, but you access values by looking up a key instead of an index. A key can be any string or number. Dictionaries are enclosed in curly braces, like so:
 # d = {'key1' : 1, 'key2' : 2, 'key3' : 3}
 
