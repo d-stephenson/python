@@ -182,6 +182,10 @@ def plane_ride_cost(city):
     return 222
   elif city == "Los Angeles":
     return 475
+  else:
+    "Not flights to this city"
+  
+print plane_ride_cost("Tampa")
   
 def rental_car_cost(days):
   car = 40 * days
@@ -193,6 +197,10 @@ def rental_car_cost(days):
 
 print rental_car_cost(5)
 
+def trip_cost(city, days):
+      return plane_ride_cost(city) + (rental_car_cost(days) + hotel_cost(days - 1))
+
+print trip_cost("Los Angeles", 5)
 
 #--------------------------------
     # Functions are defined with three components:
