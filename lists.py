@@ -86,3 +86,10 @@ print frog
 not_pets = ["ant", "bat", "cat"]
 print not_pets.index("bat")
 
+new_animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
+duck_index = new_animals.index("duck") # Use index() to find "duck"
+
+# Your code here!
+new_animals.insert(duck_index, "cobra")
+
+print new_animals # Observe what prints after the insert operation
