@@ -21,9 +21,15 @@ for number in my_list:
 start_list = [5, 3, 1, 2, 4]
 square_list = []
 
-for number in start_list:
-  square_list.append(number ** 2)
+for x in start_list:
+  square_list.append(x ** 2)
 
 square_list.sort() 
 
 print square_list
+
+#--------------------------------
+
+# A dictionary is similar to a list, but you access values by looking up a key instead of an index. A key can be any string or number. Dictionaries are enclosed in curly braces, like so:
+# d = {'key1' : 1, 'key2' : 2, 'key3' : 3}
+
