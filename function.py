@@ -144,6 +144,20 @@ print shut_down("no")
 
 
 #--------------------------------
+
+import math
+print math.sqrt(13689)
+
+def distance_from_zero(n):
+  if type(n) == int or type(n) == float:
+    return abs(n)
+  else:
+    return "Nope"
+
+print distance_from_zero(92398.283768470920838)
+
+
+#--------------------------------
     # Functions are defined with three components:
 
     # The header, which includes the def keyword, the name of the function, and any parameters the function requires. Here’s an example:
