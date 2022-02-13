@@ -77,8 +77,50 @@ zoo_animals['Rockhopper Penguin'] = 'Jungle House'
 
 print zoo_animals
 
-    # New Entries
-    # Like Lists, Dictionaries are mutable. This means they can be changed after they are created. One advantage of this is that we can add new key/value pairs to the dictionary after it is created like so:
-    # dict_name[new_key] = new_value
-    # An empty pair of curly braces {} is an empty dictionary, just like an empty pair of [] is an empty list.
-    # The length of a dictionary is the number of key value pairs it has. Each pair counts only once, even if the value is a list. That’s right you can put lists inside dictionaries
+
+# Remove from List
+
+backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
+
+backpack.remove('dagger')
+
+print backpack
+
+#--------------------------------
+
+my_dict = {
+  "fish": ["c", "a", "r", "p"],
+  "cash": -4483,
+  "luck": "good"
+}
+print my_dict["fish"][0]
+
+#--------------------------------
+
+inventory = {
+  'gold' : 500,
+  'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
+  'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']
+}
+
+# Adding a key 'burlap bag' and assigning a list to it
+inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
+
+# Sorting the list found under the key 'pouch'
+inventory['pouch'].sort() 
+
+# Your code here
+inventory['pocket'] = ['seashell', 'strange berry','lint']
+
+inventory['backpack'].sort()
+
+inventory['backpack'].remove('dagger')
+
+inventory['gold'] = inventory['gold'] + 50
+
+print inventory
+
+
+
+
+
