@@ -142,6 +142,7 @@ def shut_down(s):
 
 print shut_down("no")
 
+
 #--------------------------------
     # Functions are defined with three components:
 
