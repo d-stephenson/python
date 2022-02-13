@@ -202,16 +202,6 @@ def trip_cost(city, days, spending_money):
     
 print trip_cost("Los Angeles", 5, 250)
 
-
-
-
-
-
-
-
-
-
-
 #--------------------------------
     # Functions are defined with three components:
 
