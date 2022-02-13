@@ -142,11 +142,12 @@ def shut_down(s):
 
 print shut_down("no")
 
-
 #--------------------------------
 
 import math
 print math.sqrt(13689)
+
+#--------------------------------
 
 def distance_from_zero(n):
   if type(n) == int or type(n) == float:
@@ -155,6 +156,42 @@ def distance_from_zero(n):
     return "Nope"
 
 print distance_from_zero(92398.283768470920838)
+
+#--------------------------------
+
+def bigger(first, second):
+  print max(3, 9)
+  return True
+
+def answer():
+  return 42
+  
+#-------------------------------- 
+
+def hotel_cost(nights):
+  return 140 * nights
+    
+print hotel_cost(5)
+
+def plane_ride_cost(city):
+  if city == "Charlotte":
+    return 183
+  elif city == "Tampa":
+    return 220
+  elif city == "Pittsburgh":
+    return 222
+  elif city == "Los Angeles":
+    return 475
+  
+def rental_car_cost(days):
+  car = 40 * days
+  if days >= 7:
+    car -= 50
+  elif days >= 3:
+    car -= 20
+  return car
+
+print rental_car_cost(5)
 
 
 #--------------------------------
