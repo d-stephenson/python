@@ -61,3 +61,28 @@ middle = suitcase[2:4]
 
 # The last two items (index four and five)
 last = suitcase[4:6] 
+
+my_list = [1, 2, 3, 4, 5, 6, 7]
+
+print my_list[:2]
+# Grabs the first two items
+print my_list[3:]
+# Grabs the fourth through last items
+
+animals = "catdogfrog"
+
+# The first three characters of animals
+cat = animals[:3]
+
+print cat
+
+# The fourth through sixth characters
+dog = animals[3:6]
+
+print dog
+
+# From the seventh character to the end
+frog = animals[6:]
+
+print frog
+
