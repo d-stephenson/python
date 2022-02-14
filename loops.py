@@ -160,6 +160,8 @@ webster = {
 
 for key in webster:
   print webster[key]
+
+#--------------------------------
   
 # Control Flow and Looping
 
@@ -168,3 +170,11 @@ for number in numbers:
   if number > 6:
     print number
 print "We printed " + str(number) + "."
+
+a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+for n in a:
+  if n % 2 == 0:
+    print n
+    
+# Lists + Functions
+
