@@ -120,7 +120,13 @@ inventory['gold'] = inventory['gold'] + 50
 
 print inventory
 
+#--------------------------------
 
+# for loops allow us to iterate through all of the elements in a list from the left-most (or zeroth element) to the right-most element. A sample loop would be structured as follows:
+    
+# a = ["List", "of", "some", "sort"]
+# for x in a: 
+  # Do something for every x
 
 
 
