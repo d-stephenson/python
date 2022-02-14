@@ -236,3 +236,10 @@ for food in prices:
   print food
   print "price: %s" % prices[food]
   print "stock: %s" % stock[food]
+  
+total = 0
+for food in prices:
+  print food
+  print "Total " + str(prices[food] * stock[food])
+  total = total + prices[food] * stock[food]
+print "Grand Total " + str(total)
