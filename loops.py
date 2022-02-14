@@ -161,3 +161,10 @@ webster = {
 for key in webster:
   print webster[key]
   
+# Control Flow and Looping
+
+numbers = [1, 3, 4, 7]
+for number in numbers: 
+  if number > 6:
+    print number
+print "We printed " + str(number) + "."
