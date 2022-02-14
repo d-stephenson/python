@@ -128,5 +128,8 @@ print inventory
 # for x in a: 
   # Do something for every x
 
+# This loop will run all of the code in the indented block under the for x in a: statement. The item in the list that is currently being evaluated will be x. So running the following:
 
-
+# for item in [1, 3, 21]: 
+#   print item
+# would print 1, then 3, and then 21. The variable between for and in can be set to any variable name (currently item), but you should be careful to avoid using the word list as a variable, since that’s a reserved word (that is, it means something special) in the Python language.
