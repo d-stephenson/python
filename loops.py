@@ -134,7 +134,6 @@ for x in a:
 for item in [1, 3, 21]: 
   print item
 
-# would print 1, then 3, and then 21. The variable between for and in can be set to any variable name (currently item), but you should be careful to avoid using the word list as a variable, since that’s a reserved word (that is, it means something special) in the Python language.
 
 names = ["Adam","Alex","Mariah","Martine","Columbus"]
 
@@ -177,4 +176,52 @@ for n in a:
     print n
     
 # Lists + Functions
+
+def count_small(numb):
+  total = 0
+  for m in numb:
+    if m < 10:
+      total = total + 1
+  return total
+ 
+lotto = [4, 8, 15, 16, 23, 42]
+small = count_small(lotto)
+print small
+
+# Write your function below!
+def fizz_count(x):
+  count = 0
+  for item in x:
+    if item == "fizz":
+      count = count + 1
+  return count
+
+f = ["fizz", "dog", "fizz", "cat", "horse", "fizz", "fizz"]
+z = fizz_count(f)
+print z
+
+# String Looping
+
+for letter in "Codecademy":
+      print letter
+    
+# Empty lines to make the output pretty
+print
+print
+
+word = "Programming is fun!"
+
+for letter in word:
+  # Only print out the letter i
+  if letter == "i":
+    print letter
+    
+#--------------------------------
+   
+prices = {
+  "banana": 4, 
+  "apple": 2, 
+  "orange": 1.5, 
+  "pear": 3
+}
 
