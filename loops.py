@@ -262,7 +262,6 @@ prices = {
   "pear": 3
 }
 
-# Write your code below!
 def compute_bill(food):
   total = 0
   for item in food:
@@ -270,3 +269,15 @@ def compute_bill(food):
   return total
 
 print compute_bill(shopping_list)
+
+def compute_bill_1(food):
+  total = 0
+  for item in food:
+    if stock[item] > 0:
+        total = total + prices[item]
+        stock[item] = stock[item] - 1  
+  return total 
+
+print compute_bill_1(shopping_list)
+
+print stock
