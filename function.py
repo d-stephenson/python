@@ -268,7 +268,6 @@ print compute_bill_1(shopping_list)
 
 print stock
 
-
 #--------------------------------
     # Functions are defined with three components:
 
