@@ -85,8 +85,27 @@ print numbers
 # Modifying an element of a list in a function
 
 def list_function(x):
-      x[1] = x[1] + 3
+  x[1] = x[1] + 3
   return x
 
 n = [3, 5, 7]
 print list_function(n)
+
+my_list = [1, 2, 3]
+my_list.append(4)
+print my_list
+
+n = [3, 5, 7]
+def list_extender(lst):
+    lst.append(9)
+    return lst
+print list_extender(n)
+
+# Printing out a list item by item in a function
+
+n = [3, 5, 7]
+def print_list(x):
+  for i in range(0, len(x)):
+    print x[i]
+  
+print_list(n)
