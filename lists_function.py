@@ -162,6 +162,8 @@ def join_strings(words):
 
 print join_strings(n)
 
+#--------------------------------
+
 m = [1, 2, 3]
 n = [4, 5, 6]
 
@@ -170,14 +172,18 @@ def join_lists(x, y):
 
 print join_lists(m, n)
 
+#--------------------------------
 
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
 
+def flatten(lists):
+  results = []
+  for numbers in lists:
+    for number in numbers:
+      results.append(number)
+  return results
 
-
-
-
-
-
+print flatten(n)
 
 #--------------------------------
     # Method 1 for item in list
@@ -190,4 +196,27 @@ print join_lists(m, n)
 
     # Method 1 is useful to loop through the list, but it’s not possible to modify the list this way
     # Method 2 uses indexes to loop through the list, making it possible to also modify the list if needed Since we aren’t modifying the list, feel free to use either one on this lesson
+#--------------------------------
+
+#--------------------------------
+    # Using a list of lists in a function
+
+    # single list that contains multiple lists and how to use them in a function.
+
+    # list_of_lists = [[1, 2, 3], [4, 5, 6]]
+    
+    # for lst in list_of_lists:
+    #   for item in lst:
+    #     print item
+    # In the example above, we first create a list containing two items, each of which is a list of numbers.
+    # Then, we iterate through our outer list.
+    # For each of the two inner lists (as lst), we iterate through the numbers (as item) and print them out.
+    # We end up printing out:
+
+    # 1
+    # 2
+    # 3
+    # 4
+    # 5
+    # 6
 #--------------------------------
