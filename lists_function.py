@@ -47,3 +47,24 @@ def add_function(x, y):
   return x + y
 
 print add_function(m, n)
+
+#--------------------------------
+
+# Strings in functions
+
+n = "Hello"
+# Your function here!
+def string_function(s):
+  return s + " world"
+
+print string_function(n)
+
+#--------------------------------
+
+# Lists in functions
+
+def list_function(x):
+      return x
+
+m = [3, 5, 7]
+print list_function(m)
