@@ -23,3 +23,8 @@ p = [1, 3, 5]
 del(p[1])
 # Doesn't return anything
 print "p" + str(p)
+
+q = [1, 3, 5]
+# Remove the first item in the list here
+del(q[0])
+print "q" + str(q)
