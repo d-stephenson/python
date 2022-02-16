@@ -77,7 +77,6 @@ zoo_animals['Rockhopper Penguin'] = 'Jungle House'
 
 print zoo_animals
 
-
 # Remove from List
 
 backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
