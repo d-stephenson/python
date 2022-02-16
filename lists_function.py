@@ -68,3 +68,25 @@ def list_function(x):
 
 m = [3, 5, 7]
 print list_function(m)
+
+def list_function(x):
+      return x[0]
+
+n = [3, 5, 7]
+print list_function(n)
+
+def double_first(n):
+    n[0] = n[0] * 2
+ 
+numbers = [1, 2, 3, 4]
+double_first(numbers)
+print numbers
+
+# Modifying an element of a list in a function
+
+def list_function(x):
+      x[1] = x[1] + 3
+  return x
+
+n = [3, 5, 7]
+print list_function(n)
