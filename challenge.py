@@ -64,3 +64,8 @@ def get_class_average(class_list):
     
 print get_class_average(students)
 
+print get_letter_grade(get_class_average(students))
+
+avg = get_class_average(students)
+print(avg)
+print(get_letter_grade(avg))
