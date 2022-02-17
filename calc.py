@@ -1,10 +1,11 @@
 # Salary calc 
 
-def calc(salary):
+def calc(salary, hours):
     amount = 0
-    comparison = 0
-    amount = salary * 35 * 52
-    comparison = amount * 0.58
-    return str(amount) + " | GDP " + str(comparison)
+    comparison = []
+    amount = salary * hours * 52
+    for i in [int(amount * 0.58), int(amount * 1.18)]:
+        comparison.append(i)
+    return str(amount) + " " + str(comparison)
 
-print calc(58)
+print calc(56.23, 35)
