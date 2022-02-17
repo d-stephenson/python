@@ -5,6 +5,6 @@ def calc(salary):
     comparison = 0
     amount = salary * 35 * 52
     comparison = amount * 0.58
-    print "$" + str(amount) + " | GDP £" + str(comparison)
+    return str(amount) + " | GDP " + str(comparison)
 
-calc(58)
+print calc(58)
