@@ -44,3 +44,112 @@ while choice != "y" and choice != "no":
 # it will execute if the loop is never entered or if the loop exits normally. If 
 # the loop exits as the result of a break, the else will not be executed
 
+# In this example, the loop will break if a 5 is generated, and the else will not 
+# execute. Otherwise, after 3 numbers are generated, the loop condition will become 
+# false and the else will execute
+
+import random
+
+print "Lucky Numbers! 3 numbers will be generated."
+print "If one of them is a '5', you lose!"
+
+count = 0
+while count < 3:
+  num = random.randint(1, 6)
+  print num
+  if num == 5:
+    print "Sorry, you lose!"
+    break
+  count += 1
+else:
+  print "You win!"
+  
+from random import randint
+
+#--------------------------------
+
+random_number = randint(1, 10)
+guesses_left = 3
+while guesses_left > 0:
+  guess = int(raw_input("Your guess: "))
+  print guess
+  if guess == random_number:
+    print "You win!"
+    break
+  guesses_left -= 1
+else:
+  print "You lose."
+
+#--------------------------------
+  
+print "Counting..."
+
+for i in range(20):
+  print i
+
+#--------------------------------
+
+hobbies = []
+for num in range(3):
+  hobby = raw_input("Your hobby: ")
+  hobbies.append(hobby)
+  print hobbies
+  
+#--------------------------------
+
+thing = "spam!"
+
+for c in thing:
+  print c
+
+word = "eggs!"
+
+for c in word:
+  print c
+
+# String manipulation
+
+# word = "Marble"
+# for char in word:
+#   print char,
+
+# The example above iterates through each character in word and, in the end, prints 
+# out M a r b l e.
+# The , character after our print statement means that our next print statement 
+# keeps printing on the same line.
+
+phrase = "A bird in the hand..."
+for char in phrase:
+  if char == "A" or char == "a":
+    print "X",
+  else:
+    print char,
+
+print
+
+# For your lists
+
+numbers  = [7, 9, 12, 54, 99]
+
+print "This list contains: "
+
+for num in numbers:
+  print num
+
+for num in numbers:
+  print num ** 2
+  
+# Looping over a dictionary
+
+# You may be wondering how looping over a dictionary would work. Would you get the 
+# key or the value?
+# The short answer is: you get the key which you can use to get the value.
+
+d = {'x': 9, 'y': 10, 'z': 20}
+for key in d:
+  if d[key] == 10:
+    print "This dictionary has the value 10!"
+    
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+for key in d:
+  print key, d[key]
