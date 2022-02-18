@@ -37,3 +37,10 @@ choice = raw_input('Enjoying the course? (y/n)')
 while choice != "y" and choice != "no": 
   choice = raw_input("Sorry, I didn't catch that. Enter again: ")
 
+# While / else
+
+# while/else is similar to if/else, but there is a difference: the else block 
+# will execute anytime the loop condition is evaluated to False. This means that 
+# it will execute if the loop is never entered or if the loop exits normally. If 
+# the loop exits as the result of a break, the else will not be executed
+
