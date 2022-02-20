@@ -153,3 +153,13 @@ for key in d:
 d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
 for key in d:
   print key, d[key]
+
+#--------------------------------
+
+# enumerate works by supplying a corresponding index to each element in the list that you pass it
+
+choices = ['pizza', 'pasta', 'salad', 'nachos']
+
+print 'Your choices are:'
+for index, item in enumerate(choices):
+  print index + 1, item
