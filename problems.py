@@ -48,19 +48,10 @@ print ("The factorial of", num, "is", result)
 # is_prime
 
 def is_prime(x):
-  for n in range(2, int(x ** 1 / 2 ) + 1):
-    if x % n == 0:
-      return False
-    else:
-      return True
-print(is_prime(7))
-print(is_prime(8))
-
-def is_prime(x):
     if x < 2:
         return False
     else:
-        for n in range(2, x-1):
+        for n in range(2, x-1): # Start from 2 finish at x minus 1
             if x % n == 0:
                 return False
         return True
