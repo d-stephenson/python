@@ -178,3 +178,26 @@ for a, b in zip(list_a, list_b):
    print a
  else:
    print b 
+   
+#--------------------------------
+
+# For / else
+
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+  if f == 'tomato':
+    print 'A tomato is not a fruit!' # (It actually is.)
+    break
+  print 'A', f
+else:
+  print 'A fine selection of fruits!'
+  
+tax = {"AB": 12.5, "BC": 15, "NS" : 11, "NB": 9.5}
+
+for rate in tax:
+  if tax[rate] > float(12):
+    print rate, "tax rate is too high!"
+  else:
+    print rate, "tax rate is acceptable!"
