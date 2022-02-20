@@ -58,3 +58,17 @@ def is_prime(x):
 
 print is_prime(13)
 print is_prime(10)
+
+#--------------------------------
+
+# reverse
+
+def reverse(text):
+    word = ""
+    l = len(text) - 1
+    while l >= 0:
+        word = word + text[l]
+        l -= 1
+    return word
+print reverse("Hello")
+        
