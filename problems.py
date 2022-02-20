@@ -71,4 +71,16 @@ def reverse(text):
         l -= 1
     return word
 print reverse("Hello")
-        
+
+#--------------------------------
+
+# anti_vowel
+
+def anti_vowel(text):
+    result = ""
+    vowels = "ieaouIEAOU"
+    for char in text:
+        if char not in vowels:
+            result += char
+    return result
+print anti_vowel("Borrow book please sir")
