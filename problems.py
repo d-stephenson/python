@@ -30,10 +30,15 @@ def digit_sum(n):
   return result
 print digit_sum(number)
 
+#--------------------------------
 
+# factorial
 
-
-
-
-
-
+def factorial(x):
+    if x == 1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+num = 7
+result = factorial(num)
+print("The factorial of", str(num), "is", str(result))
