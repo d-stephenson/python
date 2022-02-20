@@ -32,7 +32,7 @@ print digit_sum(number)
 
 #--------------------------------
 
-# factorial
+# factorial [recursion]
 
 def factorial(x):
     if x == 1:
@@ -41,4 +41,8 @@ def factorial(x):
         return (x * factorial(x-1))
 num = 7
 result = factorial(num)
-print("The factorial of", str(num), "is", str(result))
+print ("The factorial of", num, "is", result)
+
+#--------------------------------
+
+# is_prime
