@@ -8,4 +8,4 @@ def calc(salary, hours):
         comparison.append(i)
     return "CAD " + str(amount) + " | GBP " + str(comparison[0]) + " | NZD " + str(comparison[1]) + " | USD " + str(comparison[2])
 
-print calc(56.23, 35)
+print calc(47.62, 35)
