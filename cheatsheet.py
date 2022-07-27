@@ -102,3 +102,26 @@ lights = 2.5
 left_overs = 0.0
 
 # ////////////////////////////////////////////
+
+String Concatenation
+Python supports the joining (concatenation) of strings together using the + operator. The + operator is also used for mathematical addition operations. If the parameters passed to the + operator are strings, then concatenation will be performed. If the parameter passed to + have different types, then Python will report an error condition. Multiple variables or literal strings can be joined together using the + operator.
+
+# String concatenation
+ 
+first = "Hello "
+second = "World"
+ 
+result = first + second
+ 
+long_result = first + second + "!"
+
+# ////////////////////////////////////////////
+
+Errors
+The Python interpreter will report errors present in your code. For most error cases, the interpreter will display the line of code where the error was detected and place a caret character ^ under the portion of the code where the error was detected.
+
+if False ISNOTEQUAL True:
+                  ^
+SyntaxError: invalid syntax
+
+# ////////////////////////////////////////////
