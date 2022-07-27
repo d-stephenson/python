@@ -30,3 +30,24 @@ result = 5 ** 3
 
 # ////////////////////////////////////////////
 
+Plus-Equals Operator +=
+The plus-equals operator += provides a convenient way to add a value to an existing variable and assign the new value back to the same variable. In the case where the variable and the value are strings, this operator performs string concatenation instead of addition.
+
+The operation is performed in-place, meaning that any other variable which points to the variable being updated will also be updated.
+
+# Plus-Equal Operator
+ 
+counter = 0
+counter += 10
+ 
+# This is equivalent to
+ 
+counter = 0
+counter = counter + 10
+ 
+# The operator will also perform string concatenation
+ 
+message = "Part 1 of message "
+message += "Part 2 of message"
+
+# ////////////////////////////////////////////
