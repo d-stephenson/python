@@ -17,3 +17,17 @@ print(155 % 6)
 
 print(5 ** 3)
 print(10 ** 3)
+
+# Plus-Equals Operator +=
+
+counter = 0
+print(counter)
+counter += 10
+print(counter)
+counter += 20
+print(counter)
+
+message = "Part 1 of message "
+print(message)
+message += " with part 2 of message"
+print(message)
