@@ -70,3 +70,16 @@ points = 120
 
 # ////////////////////////////////////////////
 
+Modulo Operator %
+A modulo calculation returns the remainder of a division between the first and second number. For example:
+
+The result of the expression 4 % 2 would result in the value 0, because 4 is evenly divisible by 2 leaving no remainder.
+The result of the expression 7 % 3 would return 1, because 7 is not evenly divisible by 3, leaving a remainder of 1.
+
+# Modulo operations
+ 
+zero = 8 % 4
+ 
+nonzero = 12 % 5
+
+# ////////////////////////////////////////////
