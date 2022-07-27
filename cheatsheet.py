@@ -83,3 +83,22 @@ zero = 8 % 4
 nonzero = 12 % 5
 
 # ////////////////////////////////////////////
+
+Integers
+An integer is a number that can be written without a fractional part (no decimal). An integer can be a positive number, a negative number or the number 0 so long as there is no decimal portion.
+
+The number 0 represents an integer value but the same number written as 0.0 would represent a floating point number.
+
+# Example integer numbers
+ 
+chairs = 4
+tables = 1
+broken_chairs = -2
+sofas = 0
+ 
+# Non-integer numbers
+ 
+lights = 2.5
+left_overs = 0.0
+
+# ////////////////////////////////////////////
